@@ -43,4 +43,10 @@ def send_mail():
 
     server.quit()
 
+
+
+while (True):
+    check_price()
+    time.sleep(3600)
+
 check_price()
